@@ -6,10 +6,6 @@
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -27,28 +23,35 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Working the Issue
 - Resolution
 
-<h2>Lifecycle Stages</h2>
+## Stage 1 - Intake
+1. A ticket is created by user **Karen** in the **End User Portal** at:  
+   [http://localhost/osTicket](http://localhost/osTicket)  
+   ![End User Portal](https://i.imgur.com/Y3STDyU.png)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+2. To open a ticket, Karen fills out her contact information and selects the **Help Topic**.  
+   ![Filling Contact Information](https://i.imgur.com/1rWNuDa.png)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+3. Karen provides the details of her issue and clicks **Create Ticket**.  
+   ![Ticket Details](https://i.imgur.com/LZPaBQE.png)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+## Stage 2 - Assignment and Communication
+1. Agent **John** views the ticket at:  
+   [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php)  
+   ![Admin Login](https://i.imgur.com/zTuYJ9e.png)
+
+2. John notes the issue's severity:  
+   ![Ticket Review](https://i.imgur.com/ZfZncjm.png)
+
+3. John assigns the SLA, department, and help topic, then escalates to **Jane** and informs Karen:  
+   ![SLA Assignment](https://i.imgur.com/aykdgCZ.png)  
+   ![Department Setting](https://i.imgur.com/gwdcTbS.png)  
+   ![User Communication](https://i.imgur.com/yAN8XY1.png)
+
+## Stages 3 and 4 - Working and Resolving the Issue
+1. Agent **Jane** reviews the ticket:  
+   [http://localhost/osTicket/scp/login.php](http://localhost/osTicket/scp/login.php)  
+   ![Admin Login - Jane](https://i.imgur.com/ky5pRNt.png)
+
+2. Jane resolves the operating system issue and updates the app. She communicates the fix to Karen and marks the ticket as resolved:  
+   ![Resolution Status](https://i.imgur.com/3Kycogt.png)
+
