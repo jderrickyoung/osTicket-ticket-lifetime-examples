@@ -23,6 +23,19 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 - Working the Issue
 - Resolution
 
+<h2>
+  <a href="https://youtu.be/K2wpdN8_jf8" target="_blank">
+    Video Demonstration
+  </a>
+</h2>
+
+<a href="https://youtu.be/K2wpdN8_jf8" target="_blank">
+  <img src="https://img.youtube.com/vi/K2wpdN8_jf8/maxresdefault.jpg"
+       alt="Video Demonstration"
+       width="600">
+</a>
+
+
 ## Stage 1 - Intake
 1. A ticket is created by user **Karen** in the **End User Portal** at:  
    [http://localhost/osTicket](http://localhost/osTicket)  
